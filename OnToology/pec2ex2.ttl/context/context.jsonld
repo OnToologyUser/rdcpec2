@@ -1,0 +1,177 @@
+{
+  "@context" : {
+    "DomesticFlight" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/DomesticFlight"
+    },
+    "abstract" : {
+      "@id" : "http://purl.org/dc/terms/abstract"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "hasAssignedSeat" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/hasAssignedSeat",
+      "@type" : "@id"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/Country"
+    },
+    "hasAircraft" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/hasAircraft",
+      "@type" : "@id"
+    },
+    "model" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/model",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "reviewedByPassenger" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/reviewedByPassenger",
+      "@type" : "@id"
+    },
+    "LeisureTraveller" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/LeisureTraveller"
+    },
+    "arrivesAtAirport" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/arrivesAtAirport",
+      "@type" : "@id"
+    },
+    "InternationalFlight" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/InternationalFlight"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasSeat" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/hasSeat",
+      "@type" : "@id"
+    },
+    "providesService" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/providesService",
+      "@type" : "@id"
+    },
+    "CabinService" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/CabinService"
+    },
+    "Airport" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/Airport"
+    },
+    "departsFromAirport" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/departsFromAirport",
+      "@type" : "@id"
+    },
+    "Pilot" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/Pilot"
+    },
+    "name" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "reviewOfFlight" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/reviewOfFlight",
+      "@type" : "@id"
+    },
+    "FlightAttendant" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/FlightAttendant"
+    },
+    "FirstClassSeat" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/FirstClassSeat"
+    },
+    "verified" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/verified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Passenger" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/Passenger"
+    },
+    "Seat" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/Seat"
+    },
+    "BusinessClassSeat" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/BusinessClassSeat"
+    },
+    "BusinessTraveller" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/BusinessTraveller"
+    },
+    "number" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/number",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "FlightReview" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/FlightReview"
+    },
+    "Place" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/Place"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/Aircraft"
+    },
+    "locatedInCity" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/locatedInCity",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/title",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isPartOfCountry" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/isPartOfCountry",
+      "@type" : "@id"
+    },
+    "recommendationStatus" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/recommendationStatus",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "EconomySeat" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/EconomySeat"
+    },
+    "Airline" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/Airline"
+    },
+    "Flight" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/Flight"
+    },
+    "date" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/date",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "City" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/City"
+    },
+    "CrewMember" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/CrewMember"
+    },
+    "worksOnFlight" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/worksOnFlight",
+      "@type" : "@id"
+    },
+    "GroundService" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/GroundService"
+    },
+    "receivesService" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/receivesService",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/comment",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Service" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/Service"
+    },
+    "rating" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/rating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "livesInCountry" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/livesInCountry",
+      "@type" : "@id"
+    },
+    "operatedByAirline" : {
+      "@id" : "http://www.semanticweb.org/soblechero/ontologies/2024/3/flight-satisfaction-surveys/operatedByAirline",
+      "@type" : "@id"
+    }
+  }
+}
